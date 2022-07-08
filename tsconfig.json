@@ -7,5 +7,6 @@
     "esModuleInterop": true,
     "target": "ESNext"
   },
-  "include": ["src/*.ts", "src/**/*.ts", "test/*.ts", "test/**/*.ts"]
+  "include": ["src/*.ts", "src/**/*.ts", "test/*.ts", "test/**/*.ts"],
+  "exclude": ["**/*.spec.ts", "node_modules"]
 }
